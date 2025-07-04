@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gustavo Novais | Dev Front-end</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="corner-buttons">
+  <button id="themeToggle" aria-label="Alternar tema">
+    🌗 <span>Tema</span>
+  </button>
+  <button id="langToggle" aria-label="Mudar idioma">
+    🌐 <span>EN</span>
+  </button>
+</div>
+
+<button class="menu-toggle" aria-label="Menu">
+  <div class="hamburger"></div>
+</button>
+
+<canvas id="matrix"></canvas>
+
+<section id="inicio" class="container hidden">
+  <img src="img/gustavo.jpg" alt="Gustavo Novais" class="profile-img" />
+  <div class="text-section">
+    <h1 id="typed-name"></h1>
+    <h2 id="typed-role"></h2>
+    <p id="intro-p">
+      Olá! Me chamo Gustavo Lima Novais, estou graduando em Análise e Desenvolvimento de Sistemas, e sou desenvolvedor web Front-end.
+    </p>
+    <div class="skills">
+      <img src="img/html.png" alt="HTML" title="HTML" />
+      <img src="img/css.png" alt="CSS" title="CSS" />
+      <img src="img/js.png" alt="JavaScript" title="JavaScript" />
+    </div>
+    <div class="links">
+  <a href="https://wa.me/qr/I62KDPKSMLU7L1" target="_blank" rel="noopener noreferrer">
+    <img src="img/wpp.png" alt="WhatsApp" />
+  </a>
+  <a href="https://www.linkedin.com/in/gustavo-lima-novais-560b23314" target="_blank" rel="noopener noreferrer">
+    <img src="img/linkedin.png" alt="LinkedIn" />
+  </a>
+  <a href="docs/CV_Gustavo_Novais.pdf" download class="btn btn-curriculo" id="btnDownloadCurriculo">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24">
+    <path d="M5 20h14v-2H5v2zm7-18L5.33 9h3.67v4h4v-4h3.67L12 2z"/>
+  </svg>
+  <span>Baixar Currículo</span>
+</a>
+
+
+</div>
+  </div>
+</section>
+
+<section id="sobre" class="container hidden">
+    <div class="text-section full">
+      <h2 id="sobre-title">Sobre mim</h2>
+      <p id="sobre-p1">Tenho uma trajetória de cerca de 3 anos trabalhando com suporte técnico e manutenção de computadores. Isso me tornou um profissional ágil, organizado e com forte perfil de resolução de problemas.</p>
+      <p id="sobre-p2">Atualmente atuo como Analista JR de suporte técnico, mas busco minha transição para o desenvolvimento web, com o objetivo de me tornar, em breve, um desenvolvedor Full Stack.</p>
+    </div>
+  </section>
+
+<section id="projetos" class="container hidden">
+  <div class="text-section full">
+    <h2 id="projetos-title">Projetos</h2>
+    <div class="grid-projetos">
+      
+      <div class="projeto">
+        <img src="img/dashboardproject.png" alt="Dashboard de Estudos" />
+        <h3 id="proj1-title">Dashboard de Estudos</h3>
+        <p id="proj1-desc">Sistema para acompanhamento de estudos com anotações e progresso.</p>
+        <div class="tech-icons">
+          <img src="img/html.png" alt="HTML" />
+          <img src="img/css.png" alt="CSS" />
+          <img src="img/js.png" alt="JavaScript" />
+        </div>
+        <div class="botoes-projeto">
+          <a href="https://github.com/guti1203/dashboard-de-estudos" target="_blank" class="btn github">Ver no GitHub</a>
+          <a href="https://guti1203.github.io/dashboard-de-estudos" target="_blank" class="btn demo">Ver Site</a>
+        </div>
+      </div>
+
+      <div class="projeto">
+        <img src="img/teravitaproject.png" alt="Sistema de agendamentos Teravita" />
+        <h3 id="proj2-title">Sistema de agendamentos Teravita</h3>
+        <p id="proj2-desc">Sistema de agendamentos responsivo para Studio de massagem.</p>
+        <div class="tech-icons">
+          <img src="img/html.png" alt="HTML" />
+          <img src="img/css.png" alt="CSS" />
+        </div>
+        <div class="botoes-projeto">
+          <a href="https://github.com/guti1203/teravita_agendamentos" target="_blank" class="btn github">Ver no GitHub</a>
+          <a href="https://kaleidoscopic-biscuit-078d69.netlify.app/" target="_blank" class="btn demo">Ver Site</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="contato" class="container hidden">
+  <div class="text-section full">
+    <h2 id="contato-title">Contato</h2>
+    <p id="contato-p">Estou disponível para novas oportunidades e projetos, entre em contato!</p>
+    <div class="links">
+      <a href="https://wa.me/qr/I62KDPKSMLU7L1" target="_blank">
+        
+        <img src="img/wpp.png" alt="WhatsApp" />
+      </a>
+      <a href="https://www.linkedin.com/in/gustavo-lima-novais-560b23314" target="_blank">
+        <img src="img/linkedin.png" alt="LinkedIn" />
+      </a>
+    </div>
+  </div>
+</section>
+
+<script src="js/main.js"></script>
+</body>
+</html>
